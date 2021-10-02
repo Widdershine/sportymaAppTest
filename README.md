@@ -26,6 +26,7 @@ L'application est décomposée en trois écrans:
 ## Données
 
 Les données sont décomposées en trois groupes:
+
 	- La liste des clubs, statique, obtenue depuis le fichier footballData.js. 
 	Il y a dans le cadre de cette application quatre clubs renseignés.
 	Paramètres: id (identifiant unique), name (nom du club), logo et country.
