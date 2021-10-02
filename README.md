@@ -28,7 +28,7 @@ L'application est décomposée en quatre écrans:
 
 	- Code source
 	- readme
-	- SportymaApp.apk
+	- SportymaAppTest.apk
 
 ## Données
 
