@@ -84,3 +84,8 @@ toutes les informations du joueur dans un encadré, lui aussi suivi d'un flatlis
 affiche, par saison, l'ensemble des clubs dans lesquels le joueur a performé. Pour
 chacun de ces clubs sont mentionnés les numéros, nombre de matchs et nombre de buts du
 joueur.
+
+## Notes
+
+Le projet a été développé via expo, un outil de production React Native. Le fichier apk
+distribué ici a lui même été généré via cette plateforme.
