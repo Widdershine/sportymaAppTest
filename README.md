@@ -1,6 +1,6 @@
-#Evaluation Sportyma App
+# Evaluation Sportyma App
 
-##Introduction
+## Introduction
 
 La présente application a été développée dans le cadre de l'évaluation développeur 
 React Native de Sportyma. Conformément aux instructions, celle-ci a pour but de 
@@ -8,33 +8,33 @@ permettre l'affichage de plusieurs clubs de football, ainsi que la navigation en
 ceux-ci et les joueurs qui leurs appartiennent.
 
 L'application est décomposée en trois écrans:
-	* L'écran d'accueil, permettant l'affichage des clubs avec leurs logos, 
+	- L'écran d'accueil, permettant l'affichage des clubs avec leurs logos, 
 	ainsi que la recherche d'un club via un champ texte;
 	
-	* L'écran des clubs, affichant les détails d'un club sélectionné et la liste de 
+	- L'écran des clubs, affichant les détails d'un club sélectionné et la liste de 
 	ses joueurs;
 	
-	* L'écran des joueurs, affichant pour un joueur choisi l'ensemble des clubs dans 
+	- L'écran des joueurs, affichant pour un joueur choisi l'ensemble des clubs dans 
 	lesquels il	a joué, par saison, avec les statistiques correspondantes.
 	
-##Contenu
+## Contenu
 
-	* Code source
-	* readme
-	* SportymaApp.apk
+	- Code source
+	- readme
+	- SportymaApp.apk
 
-##Données
+## Données
 
 Les données sont décomposées en trois groupes:
-	* La liste des clubs, statique, obtenue depuis le fichier footballData.js. 
+	- La liste des clubs, statique, obtenue depuis le fichier footballData.js. 
 	Il y a dans le cadre de cette application quatre clubs renseignés.
 	Paramètres: id (identifiant unique), name (nom du club), logo et country.
 	
-	* La liste des joueurs. A l'instar de celle des clubs, elle est statique et
+	- La liste des joueurs. A l'instar de celle des clubs, elle est statique et
 	stockée dans footballData.js. 115 joueurs ont été créés pour cette application.
 	Paramètres: id (identifiant unique), lName (nom de famille), fName (prénom).
 	
-	* La liste des relations entre joueurs et clubs. Cette liste est générée 
+	- La liste des relations entre joueurs et clubs. Cette liste est générée 
 	aléatoirement en associant sur 5 saisons (2017 à 2021) un ou deux clubs à 
 	chaque joueur. A chaque connexion entre un joueur et son club, un nombre aléatoire
 	de buts marqués et de matchs joués y sont associés. Le numéro du joueur quant à lui
@@ -46,7 +46,7 @@ Les données sont décomposées en trois groupes:
 Les données sont stockées dans un state Redux, auquel chacun des trois écrans fera appel
 pour l'affichage.
 
-##Utilisation
+## Utilisation
 
 Le chemin d'utilisation de l'application commence par la page d'accueil. Sur celle-ci,
 l'utilisateur a le choix de sélectionner l'un des clubs affichés, ou entrer un nom de 
