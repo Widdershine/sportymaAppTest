@@ -15,7 +15,7 @@ L'application est décomposée en trois écrans:
 	ses joueurs;
 	
 	- L'écran des joueurs, affichant pour un joueur choisi l'ensemble des clubs dans 
-	lesquels il	a joué, par saison, avec les statistiques correspondantes.
+	lesquels il a joué, par saison, avec les statistiques correspondantes.
 	
 ## Contenu
 
